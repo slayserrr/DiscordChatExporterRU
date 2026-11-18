@@ -18,9 +18,6 @@
     <img src="favicon.png" alt="Icon" />
 </p>
 
-> **Made in 🇺🇦 Ukraine — [despite Russia's best efforts](https://tyrrrz.me/ukraine)**.
-> Using this project or its source code comes with the implicit agreement that you condemn Russia's war of aggression against Ukraine, recognize Russia as a terrorist state, and support Ukraine's territorial integrity.
-
 **DiscordChatExporter** is an application that can be used to export message history from any [Discord](https://discord.com) channel to a file.
 It works with direct messages, group messages, and server channels, and supports Discord's dialect of markdown as well as most other rich media features.
 
@@ -63,8 +60,3 @@ It works with direct messages, group messages, and server channels, and supports
 - Support for markdown, attachments, embeds, emoji, and other rich media features
 - File partitioning, date ranges, message filtering, and other export options
 - Self-contained exports that can be viewed offline
-
-## Screenshots
-
-![channel list](.assets/list.png)
-![rendered output](.assets/output.png)
