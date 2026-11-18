@@ -10,7 +10,7 @@
 
 <table>
     <tr>
-        <td width="99999" align="center">Development of this project is entirely funded by the community. <b><a href="https://tyrrrz.me/donate">Consider donating to support!</a></b></td>
+        <td width="99999" align="center">Разработка этого проекта полностью финансируется сообществом. <b><a href="https://tyrrrz.me/donate">Рассмотрите возможность поддержать проект пожертвованием!</a></b></td>
     </tr>
 </table>
 
@@ -18,45 +18,45 @@
     <img src="favicon.png" alt="Icon" />
 </p>
 
-**DiscordChatExporter** is an application that can be used to export message history from any [Discord](https://discord.com) channel to a file.
-It works with direct messages, group messages, and server channels, and supports Discord's dialect of markdown as well as most other rich media features.
+**DiscordChatExporter** — это приложение, которое можно использовать для экспорта истории сообщений из любого канала [Discord](https://discord.com) в файл.
+Оно работает с личными сообщениями, групповыми сообщениями и каналами серверов, а также поддерживает диалект markdown, используемый в Discord, и большинство других возможностей работы с форматированным и мультимедийным содержимым.
 
 > [!WARNING]
-> While **DiscordChatExporter** allows it, automating user accounts is against Discord TOS and may result in you getting banned.
-> If possible, use a bot to export chat logs from accessible channels.
+> Хотя **DiscordChatExporter** это позволяет, автоматизация пользовательских аккаунтов нарушает TOS Discord и может привести к блокировке.
+> По возможности используйте бота для экспорта журналов чата из доступных каналов.
 
-**See also**:
-- 📦 [mlomb/chat-analytics](https://github.com/mlomb/chat-analytics) — solution for analyzing chat patterns of Discord users, using exports produced by **DiscordChatExporter**
-- 📦 [slatinsky/DiscordChatExporter-frontend](https://github.com/slatinsky/DiscordChatExporter-frontend) — convenient viewer for exports produced by **DiscordChatExporter**
+**См. также**:
+- 📦 [mlomb/chat-analytics](https://github.com/mlomb/chat-analytics) — решение для анализа шаблонов общения пользователей Discord на основе экспортов, созданных **DiscordChatExporter**
+- 📦 [slatinsky/DiscordChatExporter-frontend](https://github.com/slatinsky/DiscordChatExporter-frontend) — удобная программа просмотра для экспортов, созданных **DiscordChatExporter**
 
-## Download
+## Скачать
 
-- **Graphical user interface** (desktop app):
-  - 🟢 **[Stable release](https://github.com/Tyrrrz/DiscordChatExporter/releases/latest)**: look for `DiscordChatExporter.*.zip`
-  - 🟠 [CI build](https://github.com/Tyrrrz/DiscordChatExporter/actions/workflows/main.yml): look for `DiscordChatExporter.*.zip`
-  - 📦 [Scoop](https://scoop.sh/#/apps?q=DiscordChatExporter&p=1&id=c71b7367623c560a2dc746b9739b9568b79b59ae): `scoop install extras/discordchatexporter` (community-maintained)
-  - 📦 [WinGet](https://winstall.app/apps/Tyrrrz.DiscordChatExporter.GUI): `winget install Tyrrrz.DiscordChatExporter.GUI` (community-maintained)
-  - 📦 [AUR](https://aur.archlinux.org/packages/discord-chat-exporter-gui): `yay -S discord-chat-exporter-gui` (community-maintained)
-  - 📦 [Nix](https://search.nixos.org/packages?show=discordchatexporter-desktop): `nix-shell -p discordchatexporter-desktop` (community-maintained)
-- **Command-line interface** (terminal app):
-  - 🟢 **[Stable release](https://github.com/Tyrrrz/DiscordChatExporter/releases/latest)**: look for `DiscordChatExporter.Cli.*.zip`
-  - 🟠 [CI build](https://github.com/Tyrrrz/DiscordChatExporter/actions/workflows/main.yml): look for `DiscordChatExporter.Cli.*.zip`
+- **Графический интерфейс** (настольное приложение):
+  - 🟢 **[Стабильный релиз](https://github.com/Tyrrrz/DiscordChatExporter/releases/latest)**: ищите `DiscordChatExporter.*.zip`
+  - 🟠 [CI-сборка](https://github.com/Tyrrrz/DiscordChatExporter/actions/workflows/main.yml): ищите `DiscordChatExporter.*.zip`
+  - 📦 [Scoop](https://scoop.sh/#/apps?q=DiscordChatExporter&p=1&id=c71b7367623c560a2dc746b9739b9568b79b59ae): `scoop install extras/discordchatexporter` (поддерживается сообществом)
+  - 📦 [WinGet](https://winstall.app/apps/Tyrrrz.DiscordChatExporter.GUI): `winget install Tyrrrz.DiscordChatExporter.GUI` (поддерживается сообществом)
+  - 📦 [AUR](https://aur.archlinux.org/packages/discord-chat-exporter-gui): `yay -S discord-chat-exporter-gui` (поддерживается сообществом)
+  - 📦 [Nix](https://search.nixos.org/packages?show=discordchatexporter-desktop): `nix-shell -p discordchatexporter-desktop` (поддерживается сообществом)
+- **Интерфейс командной строки** (терминальное приложение):
+  - 🟢 **[Стабильный релиз](https://github.com/Tyrrrz/DiscordChatExporter/releases/latest)**: ищите `DiscordChatExporter.Cli.*.zip`
+  - 🟠 [CI-сборка](https://github.com/Tyrrrz/DiscordChatExporter/actions/workflows/main.yml): ищите `DiscordChatExporter.Cli.*.zip`
   - 🐋 [Docker](https://hub.docker.com/r/tyrrrz/discordchatexporter): `docker pull tyrrrz/discordchatexporter`
-  - 📦 [WinGet](https://winstall.app/apps/Tyrrrz.DiscordChatExporter.CLI): `winget install Tyrrrz.DiscordChatExporter.CLI` (community-maintained)
-  - 📦 [AUR](https://aur.archlinux.org/packages/discord-chat-exporter-cli): `yay -S discord-chat-exporter-cli` (community-maintained)
-  - 📦 [Nix](https://search.nixos.org/packages?show=discordchatexporter-cli): `nix-shell -p discordchatexporter-cli` (community-maintained)
+  - 📦 [WinGet](https://winstall.app/apps/Tyrrrz.DiscordChatExporter.CLI): `winget install Tyrrrz.DiscordChatExporter.CLI` (поддерживается сообществом)
+  - 📦 [AUR](https://aur.archlinux.org/packages/discord-chat-exporter-cli): `yay -S discord-chat-exporter-cli` (поддерживается сообществом)
+  - 📦 [Nix](https://search.nixos.org/packages?show=discordchatexporter-cli): `nix-shell -p discordchatexporter-cli` (поддерживается сообществом)
 
 > [!NOTE]
-> Community-maintained packages are published independently from this repository and may not always be up to date with the latest release.
+> Пакеты, поддерживаемые сообществом, публикуются независимо от этого репозитория и могут не всегда соответствовать последнему релизу.
 
 > [!NOTE]
-> If you're unsure which build is right for your system, consult with [this page](https://useragent.cc) to determine your OS and CPU architecture.
+> Если вы не уверены, какая сборка подходит для вашей системы, воспользуйтесь [этой страницей](https://useragent.cc), чтобы определить вашу ОС и архитектуру процессора.
 
-## Features
+## Возможности
 
-- Cross-platform graphical and command-line interfaces
-- Authentication via either a user or a bot token
-- Multiple output formats: HTML (dark/light), TXT, CSV, JSON
-- Support for markdown, attachments, embeds, emoji, and other rich media features
-- File partitioning, date ranges, message filtering, and other export options
-- Self-contained exports that can be viewed offline
+- Кроссплатформенный графический интерфейс и интерфейс командной строки
+- Аутентификация с помощью токена пользователя или бота
+- Несколько форматов вывода: HTML (тёмная/светлая тема), TXT, CSV, JSON
+- Поддержка markdown, вложений, embed-блоков, эмодзи и других возможностей работы с форматированным и мультимедийным содержимым
+- Разбиение на файлы, диапазоны дат, фильтрация сообщений и другие параметры экспорта
+- Автономные экспорты, которые можно просматривать офлайн
